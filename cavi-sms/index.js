@@ -5,7 +5,7 @@
 */
 // const request = require('request');
 // new class SMS
-export default class Sms {
+class Sms {
 
 	// init constructor
 	constructor(endpoint, username, password, sms_type, delivery_report = ""){
@@ -40,3 +40,4 @@ export default class Sms {
 		console.log(data);
 	}
 }
+module.exports = Sms;
