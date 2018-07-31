@@ -1,6 +1,6 @@
 {
   "name": "cavi-sms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An SMS Api built for easy use by Cavidel Limited",
   "main": "index.js",
   "scripts": {
