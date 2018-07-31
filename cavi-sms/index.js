@@ -3,8 +3,7 @@
 * @delino12
 * 🍺 Cheers
 */
-const request = require('request');
-
+// const request = require('request');
 // new class SMS
 export default class Sms {
 
@@ -28,11 +27,12 @@ export default class Sms {
 			receiver: receiver
 		}
 
-		request(params).then((val) => {
-			this.apiResponse(val);
-		}).catch((err) => {
-			this.apiResponse(val);
-		});
+		// request(params).then((val) => {
+		// 	this.apiResponse(val);
+		// }).catch((err) => {
+		// 	this.apiResponse(val);
+		// });
+		this.apiResponse(params);
 	}
 
 	// return response
